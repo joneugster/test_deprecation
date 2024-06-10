@@ -20,7 +20,21 @@ uncaught exception: unknown package 'UpdateDeprecations'
 You might need to open '/home/jeugster/Lean/Test/test_deprecation' as a workspace in your editor
 ```
 
-Now, reclone the repo, or run `rm -rf .lake` to get a fresh state.
+but if you call
+
+```
+lake build updateDeprecations
+lake exe update_deprecations
+```
+
+it works fine.
+
+
+# Local repo
+
+However, if you use a local dep, you get a different behaviour:
+
+For that, Reclone the repo or run `rm -rf .lake` to get a fresh state.
 
 Then edit the `require` lines in the `lakefile.lean` to
 require `updateDeprecations` locally. Now run the following:
