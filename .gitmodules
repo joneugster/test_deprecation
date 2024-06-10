@@ -1,0 +1,3 @@
+[submodule "UpdateDeprecations"]
+	path = UpdateDeprecations
+	url = git@github.com:joneugster/UpdateDeprecations.git
