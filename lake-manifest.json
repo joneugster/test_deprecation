@@ -1,11 +1,14 @@
 {"version": 7,
  "packagesDir": ".lake/packages",
  "packages":
- [{"type": "path",
+ [{"url": "https://github.com/joneugster/UpdateDeprecations",
+   "type": "git",
+   "subDir": null,
+   "rev": "7919f14fd5d99fb10a1f9f5cde52677257fd2bac",
    "name": "updateDeprecations",
    "manifestFile": "lake-manifest.json",
+   "inputRev": null,
    "inherited": false,
-   "dir": "./UpdateDeprecations",
    "configFile": "lakefile.lean"}],
  "name": "test_deprecation",
  "lakeDir": ".lake"}
