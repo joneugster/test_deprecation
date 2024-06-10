@@ -7,7 +7,7 @@ package «test_deprecation» where
 lean_lib «TestDeprecation» where
   -- add library configuration options here
 
--- require updateDeprecations from "UpdateDeprecations"
+--require updateDeprecations from "UpdateDeprecations"
 require updateDeprecations from git "https://github.com/joneugster/UpdateDeprecations"
 
 @[default_target]
